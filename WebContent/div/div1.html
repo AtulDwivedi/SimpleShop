@@ -2,15 +2,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Registration Page</title>
+<title>Basics of div</title>
 </head>
 <body>
-	<form action="register.jsp">
+	<div style="float:left;width: 100%">
+
+		<div style="float: left; width:18%;border-right :5px;border-color:green"><marquee>Hello how are you today?</marquee> </div>
+		<div style="float: left; width: 60%" align="center"><form action="register.jsp">
 		<input type="text" name="name" placeholder="Enter Name"><br>
 		<input type="password" name="password" placeholder="Enter Password"><br>
 		<input type="email" name="email" placeholder="Enter Email"><br>
 		<input type="number" name="mobile" placeholder="Enter Mobile Number"><br>
-		<input type="radio" name="gender" value="Male">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male&nbsp;
+		<input type="radio" name="gender" value="Male">&nbsp;Male&nbsp;
 		<input type="radio" name="gender" value="Female">&nbsp;Female<br>
 		<input type="checkbox" name="lang" value="Java">&nbsp;Java 
 		<input type="checkbox" name="lang" value="C++">&nbsp;C++ 
@@ -22,6 +25,10 @@
 			<option value="Australia">Australia</option>
 		</select><br>
 		<input type="submit" value="Register">
-	</form>
+	</form></div>
+		<div style="float: left; width: 20%">
+		<iframe width="100%" height="300" src="https://www.youtube.com/embed/eDvJog64wso" frameborder="5" allowfullscreen></iframe></div>
+		
+	</div>
 </body>
 </html>
